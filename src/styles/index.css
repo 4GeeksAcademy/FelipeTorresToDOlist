@@ -1,12 +1,77 @@
 
-/* 
+body{
+margin-top: 100px;
+font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background: black;
+animation: felipe 5s linear infinite;
+}
 
-    You can write your own styles here...
+@keyframes felipe {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.container{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border-radius: 25px;
+    border-bottom: 6px solid black;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+h1{
+    text-align: center;
+    text-decoration: overline;
+    margin: auto;
+    padding: 20px;
+    text-shadow: 2px 2px;
+    font-weight: bold;
 
-*/
+}
+ul{
+    padding: 0;
+    border-radius: 25px; 
+    width: 100%; 
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    gap:250px;
+    width: 75%;
+    border-radius: 25px;
+    margin: auto;
+   
+}
+li{
+    text-align: center;
+    justify-content: center;
+    border: 4px solid black;
+    margin-top: 10px;
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 25px;
+    background:transparent;
+    text-align: center;
+    border-style: none;    
+}
+
+.icono{
+    font-size: 20px;
+    width: calc(20%);
+}
+.totaltasks{
+    text-align: center; 
+    font-size: 20px;
+    margin-top: 10px;
+}
+.DeleteAllTasks{
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background: transparent;
+    border: 4px solid black;
+}
